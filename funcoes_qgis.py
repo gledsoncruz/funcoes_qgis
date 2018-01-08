@@ -14,4 +14,4 @@ def verifica_valor(lista, divisor, dado, feature, parent):
     val = list(sub(remove, '', lista))
     for i in val:
         if i == str(dado):
-            return dado
+            return True
